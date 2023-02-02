@@ -1,0 +1,59 @@
+:root {
+  --bodyBorder: solid 1px #CCCBCB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans;
+  color: #393939;
+  --zeilenHoehe: 90px;
+  --logoHoehe: 230px;
+}
+
+.logo {
+  max-height: var(--logoHoehe);
+  margin-top: 11px;
+  margin-bottom: 7px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #6356ac;
+  color: #FFF;
+}
+
+
+tr {
+  height: var(--zeilenHoehe);
+}
+
+tr:hover {
+  background: #EEE;
+}
+
+td {
+  border-right: solid 1px #DBDADA;
+  border-bottom: var(--body-border);
+  padding-left: 7px;
+   white-space: nowrap;
+   text-align:center;
+}
+
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+a:link{
+	text-decoration: none!Important;
+}
+
+
